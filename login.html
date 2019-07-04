@@ -7,7 +7,35 @@
   <title>Ninjagram</title>
 </head>
 
-<body>
+<body class="login">
+
+  <div class="content">
+    <img src="assets/logo-dark.png" alt="Logo"/>
+
+    <form action="" method="POST"><!--Action: Onde deve enviar o formulario-->
+      <div class="input-control">
+        <label for="email-input">E-mail</label>
+        <input type="email" id="email-input" name="email" class="input" placeholder="Digite seu E-mail"/>
+      </div>
+
+      <div class="input-control">
+          <label>Senha</label>
+          <input type="password" name="password" class="input" placeholder="Digite sua senha"/>
+      </div> 
+
+      <div class="actions">
+        <button type="submit">
+          Acessar
+        </button>
+
+        <button type="reset">
+            Limpar
+          </button>
+      </div>
+
+    </form>
+  </div>
+
 </body>
 
 </html>
